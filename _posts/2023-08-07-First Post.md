@@ -1,6 +1,6 @@
 ---
 title: 選擇權
-author: C
+author: 'C'
 date: 2023-08-07 00:34:00 +0800
 categories: [期貨, 選擇權]
 tags: [選擇權]
