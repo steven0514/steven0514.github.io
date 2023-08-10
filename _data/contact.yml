@@ -11,9 +11,9 @@
   # type: twitter
   # icon: 'fab fa-twitter'
 -
-  type: facebook
-  icon: 'fab fa-facebook'
-  url: 'www.facebook.com'
+  # type: facebook
+  # icon: 'fab fa-facebook'
+  # url: 'www.facebook.com'
 #-
 #  type: mastodon
 #  icon: 'fab fa-mastodon'   # icons powered by <https://fontawesome.com/>
