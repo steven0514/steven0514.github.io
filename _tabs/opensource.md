@@ -3,7 +3,7 @@ layout: page
 icon: fas fa-code
 order: 2
 ---
-
+<!-- 
 Below are a couple of open source projects I have contributed to. There are more in my [GitHub](https://github.com/nheidloff) organization.
 
 ## Cloud Native Starter
@@ -81,4 +81,4 @@ Technologies:
 
 Check out the [blue-cloud-mirror](https://github.com/IBM/blue-cloud-mirror) repo.
 
-![image](/assets/img/blue-cloud-mirror.jpeg)
+![image](/assets/img/blue-cloud-mirror.jpeg) -->
