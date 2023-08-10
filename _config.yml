@@ -9,37 +9,36 @@ theme: jekyll-theme-chirpy
 baseurl: ''
 
 #url: 'https://nheidloff.github.io/heidloffblog'
-url: 'https://heidloff.net'
+url: 
 
 # The language of the webpage › http://www.lingoes.net/en/translator/langcode.htm
 # If it has the same name as one of the files in folder `_data/locales`, the layout language will also be changed,
 # otherwise, the layout language will use the default value of 'en'.
-lang: en
+lang: zh-TW
 
 
 # Change to your timezone › http://www.timezoneconverter.com/cgi-bin/findzone/findzone
-timezone: Europe/Berlin
+timezone: 
 
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
-title: Niklas Heidloff
+title: CJ'S BLOG
 
-tagline: "<div>Welcome to my blog!</div><div style='padding-bottom: 10px;'></div><div>I'm an IT professional focussing on development, advocacy and artificial intelligence.</div><div style='padding-bottom: 10px;'></div><div>Recently I've worked on Kubernetes, Open Source, Java and DevOps at IBM.</div><div style='padding-bottom: 10px;'></div><div>I'm a proud father of five and love building things - software as well as outdoor areas.</div>"
+tagline: 期權知識紀錄與分享
 
-description: >-   
-  Blog from Niklas Heidloff, an IT professional focussing on development, advocacy and artificial intelligence. Niklas works at IBM and shares his Cloud, AI, OpenSource and DevOps experience.
+description: 
+  期貨,股票期貨,開戶,永豐期貨
 
 github:
-  username: nheidloff
+  username: steven0514
 twitter:
-  username: nheidloff
-social:
-  name: Niklas Heidloff
+  username:
+  name:
   links:
     # The first element serves as the copyright owner's link
-    - https://www.linkedin.com/in/niklasheidloff
-    - https://twitter.com/nheidloff      
-    - https://github.com/nheidloff        
+    - https://www.linkedin.com/in/
+    - https://twitter.com/   
+    - https://github.com/     
 
 google_site_verification:               # fill in to your verification string
 # ↑ --------------------------
