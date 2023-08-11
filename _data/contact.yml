@@ -11,9 +11,10 @@
   # type: twitter
   # icon: 'fab fa-twitter'
 # -
-  # type: facebook
-  # icon: 'fab fa-facebook'
-  # url: 'www.facebook.com'
+- type: email
+  icon: "fas fa-envelope"
+  noblank: true # open link in current tab
+
 #-
 #  type: mastodon
 #  icon: 'fab fa-mastodon'   # icons powered by <https://fontawesome.com/>
