@@ -1,32 +1,13 @@
 ---
-title: 熱門10檔股票期貨
-written_by: "Chu"
-date: 2023-08-14 00:34:00 +0800
-categories: [期貨, 股票期貨]
-tags: [股票期貨]
-pin: true
-
+layout: page
+icon: fas fa-video
+order: 3
 ---
 
-統計日期：2023/08/11
-
-| 商品代號	 |  商品名稱 | 成交口數  
-|-------|-------|---------|
-| DX    | 緯創期貨  | 51,110  |  
-| DK    | 廣達期貨  | 36,352  |  
-| HS    | 長榮航期貨 | 30,701  |   
-| GH    | 技嘉期貨  | 16,845  |   
-| CD    | 台積電期貨 | 13,439  |   
-| LQ    | 英業達期貨 | 12,907  |   
-| DB    | 華航期貨  | 12,418  |   
-| FQ    | 光寶科期貨 | 11,909  |   
-| CX    | 大同期貨  | 11,591  |   
-| DH    | 鴻海期貨  | 9,272   |   
 
 
-以上資料來自 [台灣期交所](https://www.taifex.com.tw/cht/index) 之公開資訊
 
-<!-- ## 開戶方式
+## 開戶方式
 
 + 臨櫃開戶(台北市中正區重慶南路一段2號8樓)
 
@@ -66,7 +47,10 @@ pin: true
 
 + 印章（可帶 可不帶）
 
-+ 額度如需超過50萬，請備妥財力證明
+
+## 提高額度超過一百萬
+
++ 額度如需超過100萬，請備妥財力證明
 
     + 入金權益數做申請(最快最方便)      
     
@@ -77,5 +61,46 @@ pin: true
         + 權狀影本、登記謄本  
         + 最近其地價稅單、房屋稅單  
     
- -->
 
+<!-- 
+Below are a couple of demos, teasers and conference talks. There are more on my [YouTube](https://www.youtube.com/nheidloff) channel.
+
+## Application Modernization and Rabbits
+
+{% include embed/youtube.html id='9bfnMXRx4e0' %}
+
+## Kubernetes Operators and SaaS
+
+{% include embed/youtube.html id='WDBn-kgkct4' %}
+
+## Driving cars autonomously with IBM Bluemix
+
+{% include embed/youtube.html id='3Mpa5WCLVDI' %}
+
+## Demo of Blue Cloud Mirror
+
+{% include embed/youtube.html id='jkDWoHjMAig' %}
+
+## Appliation Modernization Sample
+
+{% include embed/youtube.html id='gvMletI9Zz4' %}
+
+## Augmented Reality Demo using the IBM Watson SDK for Unity
+
+{% include embed/youtube.html id='u8c0fPQOqMU' %}
+
+## How to develop your first cloud-native Applications with Java
+
+{% include embed/youtube.html id='Z0yQ5XowDI4' %}
+
+## Cloud-native Applikationen mit Java
+
+{% include embed/youtube.html id='oabKnZO2mUA' %}
+
+## When to Use Serverless? When to Use Kubernetes?
+
+{% include embed/youtube.html id='UPqN1pxF1lk' %}
+
+## Application Modernization and Rabbits
+
+{% include embed/youtube.html id='kgl1ZfpXYzE' %} -->

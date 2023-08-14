@@ -69,9 +69,12 @@
     border-radius: 0.5rem;
     border: 0;
     background: var(--card-bg);
+    transition: transform .3s ease-in-out;
 
     &:hover{
       transition: background-color 0.35s ease-in-out 0s;
+      transform: translate3d(0, -3px, 0);
+      
     }
     // a:hover {
     //   @extend %link-hover;
