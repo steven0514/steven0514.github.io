@@ -14,10 +14,11 @@ tabs:
   categories: 分類
   tags: 標籤
   archives: 檔案夾
-  about: 關於
+  about: 關於我
   videos : 影音分享
   openaccount: 預約開戶
   about: 關於
+
 
 # the text displayed in the search bar & search results
 search:
