@@ -16,12 +16,14 @@ tabs:
   archives: 檔案夾
   about: 關於
   videos : 影音分享
+  openaccount: 預約開戶
+  about: 關於
 
 # the text displayed in the search bar & search results
 search:
   hint: 搜尋
   cancel: 取消
-  no_results: 搜詢無果
+  no_results: 無此搜尋
 
 panel:
   lastmod: 最近更新
@@ -43,7 +45,7 @@ copyright:
 meta: 本站由 :PLATFORM 生成，採用 :THEME 主題。
 
 not_found:
-  statment: Sorry! 我们放錯URL，或者導向不存在的内容。
+  statment: 此網址並不存在。
 
 notification:
   update_found: 發現新的版本內容。
@@ -58,7 +60,7 @@ post:
   words: 字
   pageview_measure: 次瀏覽
   read_time:
-    unit: 分钟
+    unit: 分鐘前
     prompt: 閱讀
   relate_posts: 相關文章
   share: 分享
