@@ -27,7 +27,7 @@ title: CJ'S BLOG
 tagline: 期權知識紀錄與分享
 
 description: 
-  期貨,股票期貨,開戶,永豐期貨
+  期貨,股票期貨,選擇權,手續費,開戶,永豐期貨
 
 github:
   username: steven0514
@@ -40,7 +40,7 @@ twitter:
     - https://twitter.com/   
     - https://github.com/     
 
-google_site_verification:               # fill in to your verification string
+google_site_verification: M6FcjsL6ZLCBeqzrZftqdlfTcILJtWt6srGdS1Lo2tw              # fill in to your verification string
 # ↑ --------------------------
 # The end of `jekyll-seo-tag` settings
 
@@ -189,3 +189,7 @@ jekyll-archives:
   permalinks:
     tag: /tags/:name/
     category: /categories/:name/
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
