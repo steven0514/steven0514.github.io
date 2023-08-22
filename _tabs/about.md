@@ -4,20 +4,6 @@ icon: fas fa-code
 order: 2
 ---
 
-OOO期貨營業員
-
-OOO 
-聯絡資訊
-手機：09OO-OOO-OOO
-電話：(02)2381-1799轉OOO
-專線：(02)2382-9OOO
-傳真：(02)2381-1OOO
-Line ID： OOOOOOO
-信箱：OOO@sinopac.com   
-地址：台北市中正區重慶南路一段2號8樓
-(台開金融大樓,台北車站Z10出口)
-金管會核發期貨商許可證號: 111年金管期總字第007號
-
 <!-- 
 Below are a couple of open source projects I have contributed to. There are more in my [GitHub](https://github.com/nheidloff) organization.
 
