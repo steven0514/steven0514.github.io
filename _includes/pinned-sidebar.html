@@ -3,7 +3,8 @@
 <!-- Get pinned posts -->
 
 {% assign pinned = site.posts | where: "pin", "true" %}
-{% assign default = site.posts | where_exp: "item", "item.pin != true and item.hidden != true" %}
+{% assign default = site.posts | where_exp: "item",
+"item.pin != true and item.hidden != true" %}
 
 {% assign posts = "" | split: "" %}
 
@@ -13,11 +14,11 @@
 {% assign pinned_num = pinned.size | minus: offset %}
 
 {% if pinned_num > 0 %}
-  {% for i in (offset..pinned.size) limit: pinned_num %}
-    {% assign posts = posts | push: pinned[i] %}
-  {% endfor %}
+{% for i in (offset..pinned.size) limit: pinned_num %}
+{% assign posts = posts | push: pinned[i] %}
+{% endfor %}
 {% else %}
-  {% assign pinned_num = 0 %}
+{% assign pinned_num = 0 %}
 {% endif %}
 
 <!-- Get default posts -->
@@ -25,25 +26,46 @@
 {% assign default_beg = offset | minus: pinned.size %}
 
 {% if default_beg < 0 %}
-  {% assign default_beg = 0 %}
+{% assign default_beg = 0 %}
 {% endif %}
 
-{% assign default_num = paginator.posts | size | minus: pinned_num  %}
+{% assign default_num = paginator.posts | size | minus: pinned_num %}
 {% assign default_end = default_beg | plus: default_num | minus: 1 %}
 
 {% if default_num > 0 %}
-  {% for i in (default_beg..default_end) %}
-    {% assign posts = posts | push: default[i] %}
-  {% endfor %}
+{% for i in (default_beg..default_end) %}
+{% assign posts = posts | push: default[i] %}
+{% endfor %}
 {% endif %}
 
-
 <div id="access-lastmod" class="post">
-  <div class="panel-heading">焦點文章</div>
-  
-  <ul style="margin-left: -40px;">
+  <div class="panel-heading">精選文章</div>
+
+  <ul style="padding-left:0px;">
     {% for post in posts %}
-      <li style="margin-top: 10px;display:inline-table;"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
+    <li style="margin-top: 10px;display:block;"><a
+        href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
     {% endfor %}
   </ul>
+
+  <!-- 熱門標籤 -->
+  {% assign tags = "" | split: "" %}
+  {% for t in site.tags %}
+  {% assign tags = tags | push: t[0] %}
+  {% endfor %}
+
+  {% assign sorted_tags = tags | sort_natural %}
+  <div class="panel-heading">熱門標籤</div>
+  <ul style="padding-left: 0;">
+    {% for t in sorted_tags %}
+    <li style="margin-top: 10px;display:block;">
+      <a
+        href="{{ t | slugify | url_encode | prepend: '/tags/' | append: '/' | relative_url }}">
+        {{ t }}
+        <span class="text-muted"> ({{ site.tags[t].size }})</span>
+      </a>
+    </li>
+    {% endfor %}
+  </ul>
+  <!-- end熱門標籤-->
 </div>

@@ -64,6 +64,33 @@ layout: default
           href="https://twitter.com/nheidloff"></a> 
         <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
     </div> -->
+
+    <!-- tags文章 -->
+    {% assign tags = "" | split: "" %}
+    {% for t in site.tags %}
+      {% assign tags = tags | push: t[0] %}
+    {% endfor %}
+  
+    {% assign sorted_tags = tags | sort_natural %}
+  
+
+    
+    <div class="access">
+      <div id="access-lastmod" class="post">
+        <div class="panel-heading">熱門標籤</div>
+          <ul style="padding-left: 0;">
+            {% for t in sorted_tags %}
+              <li style="margin-top: 10px;display:block;">
+                <a  href="{{ t | slugify | url_encode | prepend: '/tags/' | append: '/' | relative_url }}">
+                  {{ t }}
+                  <span class="text-muted"> ({{ site.tags[t].size }})</span>
+                </a>
+              </li>
+            {% endfor %}
+          </ul>
+      </div>
+    </div>  
+    <!-- end tags文章-->
     {% endif %}
 
 </div>

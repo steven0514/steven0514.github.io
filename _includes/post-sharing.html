@@ -6,7 +6,7 @@
 justify-content: flex-end;width:100%">
   
   <span class="share-icons">
-    {% capture title %}{{ page.title }} - {{ site.title }}{% endcapture %}
+    <!-- {% capture title %}{{ page.title }} - {{ site.title }}{% endcapture %}
     {% assign title = title | uri_escape %}
     {% assign url = page.url | absolute_url | url_encode %}
 
@@ -16,13 +16,13 @@ justify-content: flex-end;width:100%">
           title="{{ share.type }}" target="_blank" rel="noopener" aria-label="{{ share.type }}">
           <i class="fa-fw {{ share.icon }}"></i>
         </a>
-    {% endfor %}
+    {% endfor %} -->
 
     <i id="copy-link" class="fa-fw fas fa-link small"
         data-toggle="tooltip" data-placement="top"
         title="{{ site.data.locales[site.lang].post.button.share_link.title }}"
         data-title-succeed="{{ site.data.locales[site.lang].post.button.share_link.succeed }}">
     </i>
-
+    
   </span>
 </div>

@@ -193,11 +193,12 @@ footer {
   background-color: var(--main-bg);
 
   div.d-flex {
-    height: $footer-height;
+    // height: $footer-height;
     line-height: 1.2rem;
     padding-bottom: 1rem;
+    padding-top: 1rem;
     border-top: 1px solid var(--main-border-color);
-
+    flex-direction: column;
     > div {
       width: 350px;
     }
@@ -247,6 +248,12 @@ i { /* fontawesome icons */
 
     &:not(:last-child) {
       margin-bottom: 4rem;
+    }
+    a{
+      font-size:15px;
+      &:hover{
+        text-align: none;
+      }
     }
   }
 
