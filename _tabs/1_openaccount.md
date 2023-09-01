@@ -1,13 +1,13 @@
 ---
 layout: page
 icon: fas fa-video
-order: 3
+order: 1
 ---
 
 
 
 
-<!-- ## 開戶方式
+## 開戶方式
 
 + 臨櫃開戶(台北市中正區重慶南路一段2號8樓)
 
@@ -60,7 +60,6 @@ order: 3
     + 不動產 ([不動產交易登錄資訊](http://lvr.land.moi.gov.tw))
         + 權狀影本、登記謄本  
         + 最近其地價稅單、房屋稅單  
-     -->
 
 <!-- 
 Below are a couple of demos, teasers and conference talks. There are more on my [YouTube](https://www.youtube.com/nheidloff) channel.

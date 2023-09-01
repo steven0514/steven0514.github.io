@@ -11,14 +11,13 @@ layout:
 tabs:
   # format: <filename_without_extension>: <value>
   home: 首頁
-  categories: 分類
-  tags: 標籤
   archives: 檔案夾
-  about: 關於我
   videos : 影音分享
-  openaccount: 預約開戶
-  about: 關於
-
+  1_openaccount: 預約開戶
+  2_commodity: 期權規格
+  3_categories: 分類
+  4_tags: 標籤
+  5_about: 關於
 
 # the text displayed in the search bar & search results
 search:
