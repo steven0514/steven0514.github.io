@@ -783,8 +783,8 @@ $sidebar-display: "sidebar-display";
     color: var(--sidebar-muted-color);
     line-height: 1.25rem;
     word-spacing: 1px;
-    margin: 0.2rem 1.5rem 0.5rem 1.5rem;
-    min-height: 3rem; /* avoid vertical shifting in multi-line words */
+    // margin: 0.2rem 1.5rem 0.5rem 1.5rem;
+    // min-height: 3rem; /* avoid vertical shifting in multi-line words */
     -webkit-user-select: none;
     -moz-user-select: none;
     user-select: none;
@@ -816,8 +816,8 @@ $sidebar-display: "sidebar-display";
   }
 
   ul {
-    height: $tab-height * $tab-count;
-    margin-bottom: 2rem;
+    // height: $tab-height * $tab-count;
+    // margin-bottom: 2rem;
     padding-left: 0;
 
     li {
@@ -1497,7 +1497,7 @@ $sidebar-display: "sidebar-display";
   }
 
   .profile-wrapper {
-    margin-top: 3rem;
+    // margin-top: 3rem;
   }
 
   #search-hints {
