@@ -22,12 +22,12 @@ timezone:
 
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
-title: CJ'S BLOG
+title: 永豐期貨雲端策略團隊
 
-tagline: 期權知識紀錄與分享
+tagline: 期權知識程式交易紀錄與分享
 
 description: 
-  期貨,股票期貨,選擇權,手續費,開戶,永豐期貨
+  期貨,股票期貨,海外期貨,選擇權,手續費優惠,線上開戶,永豐期貨,雲端策略,智慧單
 
 github:
   username: steven0514
