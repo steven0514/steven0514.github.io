@@ -1,0 +1,25 @@
+@media (min-width: 1200px) {
+    .container,
+    .container-md,
+    .container-sm {
+        max-width: 100% !important;
+    }
+}
+
+.h_table {
+    tr {
+        &.tname_red{
+            background-color: rgb(201, 44, 44);
+            color: rgb(255, 255, 255);
+        }
+        &.tname_redOpacity{
+            background-color: rgb(255, 230, 230);
+        }
+        td {
+            padding:5px 15px !important;
+            font-size: 15px !important;
+            text-align: center;
+        }
+    }
+
+}
