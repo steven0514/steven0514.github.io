@@ -111,9 +111,10 @@ button:hover {
     color: rgb(233, 51, 20);
 }
 </style>
-<script>
+
+<script>    
 // 資料存成陣列
-​````
+
 const accounts = {
     TWD: [
         { name: '永豐銀行 - 世貿分行(807)', prefix: '9985810' },
@@ -192,13 +193,13 @@ function updateAccountNumbers(currency, input) {
 
 // 初始化
 document.addEventListener('DOMContentLoaded', renderTables);
-​````
+
 </script>
 
 
 ## 永豐期貨線上開戶免出門
 
-期貨線上開戶網址：[https://www.spf.com.tw/spfopenact?strProd=0035&strWeb=0077&s=090640]
+期貨線上開戶網址：<span class="light">[立即點我開戶](https://www.spf.com.tw/spfopenact?strProd=0035&strWeb=0077&s=090640)<span>
 
 （手邊先備好雙證件和存摺）
 
