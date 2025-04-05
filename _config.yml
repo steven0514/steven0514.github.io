@@ -9,7 +9,7 @@ theme: jekyll-theme-chirpy
 baseurl: ''
 
 #url: 'https://nheidloff.github.io/heidloffblog'
-url: 
+url: https://steven0514.github.io/
 
 # The language of the webpage › http://www.lingoes.net/en/translator/langcode.htm
 # If it has the same name as one of the files in folder `_data/locales`, the layout language will also be changed,
@@ -27,8 +27,10 @@ title: 永豐期貨
 tagline: 期權知識程式交易紀錄與分享
 
 description: 
-  期貨,股票期貨,海外期貨,選擇權,手續費優惠,線上開戶,永豐期貨,雲端策略,智慧單
+  # 期貨,股票期貨,海外期貨,選擇權,手續費優惠,線上開戶,永豐期貨,雲端策略,智慧單,
+  永豐期貨提供期貨與選擇權交易知識分享，包含程式交易紀錄、市場分析與策略，還有手續費優惠與線上開戶資訊。
 
+keywords: 期貨交易, 選擇權, 程式交易, 永豐期貨, 海外期貨, 股票期貨, 手續費優惠, 線上開戶, 市場分析, 策略分享
 github:
   username: steven0514
 twitter:
